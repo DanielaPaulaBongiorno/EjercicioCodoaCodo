@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        #submit{
+            margin-top: 15px;
+        }
+        #reset{
+            margin-left: 15px;
+        }
+        form{
+            padding-left: 30px;
+        }
+        h1{
+            padding-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dejame tu mensaje</h1>
+    <form autocomplete="off">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="Nombre">
+        <br>
+        <br>
+        <label for="email">E-mail</label>
+        <input type="email" name="Email">
+        <br>
+        <br>
+        <label for="message">Mensaje</label>
+        <br>
+        <br>
+        <textarea name="textarea" rows="10" cols="50">Escribí tu mensaje acá...</textarea>
+        <br>
+        <input id="submit" type="submit" name="Enviar">
+        <input id="reset" type="reset" name="Resetear">
+    </form>
+</body>
+</html>
